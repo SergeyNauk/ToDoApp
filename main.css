@@ -1,0 +1,116 @@
+@import url(reset.css);
+* {
+  box-sizing: border-box; }
+
+header {
+  background-color: red;
+  width: 100%;
+  height: 120px; }
+  header h1, header span {
+    color: white;
+    display: inline-block;
+    font-size: 3.2rem;
+    margin-top: 1rem; }
+  header h1 {
+    margin-left: 3rem; }
+  header span {
+    margin-left: 1rem;
+    font-size: 2rem; }
+
+#CreateToDo {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  color: red;
+  top: 13%;
+  left: 82%;
+  opacity: 0; }
+
+#CreateNotes {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  color: red;
+  top: 13%;
+  left: 90%;
+  opacity: 0; }
+
+.ToDoElement {
+  height: 80px;
+  width: 75%;
+  background-color: yellow;
+  margin-top: 5px;
+  margin-left: 12.5%; }
+  .ToDoElement:hover {
+    transform: scale(1.2);
+    transition: all 0.5s; }
+
+.ToDoDelete {
+  position: relative;
+  width: 8%;
+  height: auto;
+  top: 30px;
+  left: 90%;
+  background-color: white;
+  border-radius: 10px; }
+
+.ToDoCheckbox {
+  position: relative;
+  top: 30px;
+  left: -40px; }
+
+.ToDoText {
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 80%;
+  height: 70px;
+  left: 8%;
+  bottom: 17px; }
+
+.NotesElement {
+  height: 80px;
+  width: 75%;
+  background-color: mediumblue;
+  margin-top: 5px;
+  margin-left: 12.5%; }
+  .NotesElement:hover {
+    transform: scale(1.2);
+    transition: all 0.5s; }
+
+.NotesDelete {
+  position: relative;
+  width: 8%;
+  height: auto;
+  top: 30px;
+  left: 90%;
+  background-color: white;
+  border-radius: 10px; }
+
+.NotesCheckbox {
+  position: relative;
+  top: 30px;
+  left: -40px; }
+
+.NotesText {
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 80%;
+  height: 70px;
+  left: 8%;
+  bottom: 17px; }
+
+#userRegistration {
+  position: absolute;
+  margin-left: 3rem;
+  top: 13%; }
+  #userRegistration span {
+    color: white;
+    font-size: 1rem; }
+  #userRegistration button {
+    background-color: white;
+    border-radius: 10px;
+    color: red; }
+
+/*# sourceMappingURL=main.css.map */
